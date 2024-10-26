@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>its just a button</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: #0d0f12;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form input[type="submit"] {
+        background-color: #e3e6e8;
+        padding: 0.5rem;
+        border-radius: 4px;
+        font-weight: 600;
+        border: none;
+        flex: 1;
+        color: #0d0f12;
+        min-width: 100px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <form action="/users" method="get">
+        <input type="submit" value="Click here to get all rows">
+    </form>
+</body>
+</html>
